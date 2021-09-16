@@ -1,7 +1,8 @@
-main{
+main {
   min-height: 80vh;
 }
 
-.ml-auto, .mx-auto {
-    margin-left: auto!important;
+.ml-auto,
+.mx-auto {
+  margin-left: auto !important;
 }

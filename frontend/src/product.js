@@ -2,7 +2,7 @@ const products = [
     {
         _id: "1",
         name: "Vibe Stick Rectangular",
-        image: "./images/vibestick.jpg",
+        image: "../images/vibestick_Rect1.png",
         description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, iure odit iste molestiae, architecto quo, quasi id minus nesciunt quibusdam vero nemo deserunt. Dicta, nobis tenetur! Dicta architecto est voluptatem.",
         brand: "GLO",
         category: "Vibe-Stick",
@@ -14,7 +14,7 @@ const products = [
     {
         _id: "2",
         name: "Vibe Stick Round",
-        image: "./images/vibestick.jpg",
+        image: "../images/vibestick.jpg",
         description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, iure odit iste molestiae, architecto quo, quasi id minus nesciunt quibusdam vero nemo deserunt. Dicta, nobis tenetur! Dicta architecto est voluptatem.",
         brand: "GLO",
         category: "Vibe-Stick",
@@ -26,19 +26,19 @@ const products = [
     {
         _id: "3",
         name: "Vibe Stick Mini Rectangular",
-        image: "./images/vibestick.jpg",
+        image: "../images/vibestick_Rect2.png",
         description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, iure odit iste molestiae, architecto quo, quasi id minus nesciunt quibusdam vero nemo deserunt. Dicta, nobis tenetur! Dicta architecto est voluptatem.",
         brand: "GLO",
         category: "Vibe-Stick",
         price: 2800,
-        countInStock: 20,
+        countInStock: 0,
         rating: 4.8,
         numReviews: 16
     },
     {
         _id: "4",
         name: "Vibe Stick Mini Round",
-        image: "./images/vibestick.jpg",
+        image: "../images/vibestick.jpg",
         description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, iure odit iste molestiae, architecto quo, quasi id minus nesciunt quibusdam vero nemo deserunt. Dicta, nobis tenetur! Dicta architecto est voluptatem.",
         brand: "GLO",
         category: "Vibe-Stick",
