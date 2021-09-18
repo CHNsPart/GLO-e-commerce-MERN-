@@ -1,8 +1,12 @@
 import express from "express"
 import dotenv from "dotenv"
+import colors from "colors"
+import connectDB from "./config/db.js"
 import products from "./data/product.js"
 
 dotenv.config()
+connectDB()
+
 const app = express()
 
 
@@ -23,5 +27,7 @@ app.get("/api/products/:id", (req, res) => {
 const PORT = process.env.PORT || 5000
 
 app.listen(PORT, 
-    console.log(`Server is on live in...${process.env.NODE_ENV} mode on port ${PORT}`)
+    console.log(`Server is on live in`.brightMagenta.bold+`\n@...@\n#...#\n%...%\n#...#\n&...&\n`.green+`{ ${process.env.NODE_ENV} }`.brightGreen.bold+` mode on port `.black.bold.dim.italic +
+    `{ ${PORT} }`.brightMagenta+
+    `\n\n ------------- `.america+`CHNsBOT`.trap+ ` -------------\n`.america)
 )

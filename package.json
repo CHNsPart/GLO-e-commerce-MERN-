@@ -21,8 +21,10 @@
   },
   "homepage": "https://github.com/CHNsPart/GLO-e-commerce-MERN-#readme",
   "dependencies": {
+    "colors": "^1.4.0",
     "dotenv": "^10.0.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^6.0.6"
   },
   "devDependencies": {
     "concurrently": "^6.2.1",
